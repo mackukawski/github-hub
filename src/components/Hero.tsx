@@ -88,7 +88,7 @@ export const Hero: React.FC = () => {
 
                             <div className="flex flex-wrap justify-center gap-4 text-sm font-mono text-opti-green">
                                 {content.highlighted_modules.map((mod, i) => (
-                                    <span key={i} className="flex items-center gap-2 bg-white dark:bg-slate-800 px-4 py-2 rounded-lg border-2 border-green-500 dark:border-opti-green text-opti-black dark:text-opti-green font-bold shadow-md">
+                                    <span key={i} className="flex items-center gap-2 bg-sky-200 dark:bg-sky-300 px-4 py-2 rounded-lg border-2 border-red-500 dark:border-red-500 text-opti-black dark:text-opti-black font-bold shadow-md">
                                         <CheckCircle2 className="w-4 h-4 text-opti-green" />
                                         {mod}
                                     </span>
