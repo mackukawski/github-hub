@@ -15,7 +15,7 @@ export const siteData = {
   hero: {
     reseller: {
       headline: "Toma to jest łatwe w modyfikacji tylko się trzeba najebać z konfiguracja do lovable",
-      subheadline: "The ERP system for Amazon sellers who demand precision in purchase planning, inventory control, and real-time margin accuracy.",
+      subheadline: "huj ci w dupe",
       cta: "Schedule Operational Demo",
       highlighted_modules: ["Purchase Planner", "Live COG Tracker", "Cashflow Monitor"]
     },
