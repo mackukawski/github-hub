@@ -13,12 +13,24 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        opti: {
+          black: '#0F0F0F',
+          gray: '#E6E6E6',
+          darkGray: '#2A2A2A',
+          green: '#00D166', // Signal Green
+          red: '#FF3B30',  // Alert Red
+          blue: '#007AFF', // Action Blue
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
